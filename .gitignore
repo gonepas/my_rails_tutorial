@@ -21,3 +21,5 @@
 .byebug_history
 /config/database.yml
 /config/secret.yml
+/.framgia-ci-reports
+.framgia-ci-result.temp.yml
