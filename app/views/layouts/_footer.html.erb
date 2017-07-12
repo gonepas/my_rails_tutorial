@@ -1,0 +1,12 @@
+<footer class="footer">
+  <small>
+    <%= t("partial.footer.content").html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("partial.footer.about"), about_path %></li>
+      <li><%= link_to t("partial.footer.contact"), contact_path %></li>
+      <li><%= link_to t("partial.footer.news"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>

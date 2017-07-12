@@ -6,6 +6,7 @@ en:
     text1: "This is the home page for the"
     text2: "Ruby on Rails Tutorial"
     text3: "sample application."
+    signup: "Sign up now!"
   help:
     title: "Help"
     content: |
@@ -24,4 +25,25 @@ en:
       to teach web development with
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
       This is the sample application for the tutorial.
+  contact:
+    title: "Contact"
+    content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    content2: "contact page"
   header: "Ruby on Rails Tutorial Sample App"
+  partial:
+    header:
+      title: "Sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      content: |
+        The <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+      about: "About"
+      contact: "Contact"
+      news: "News"
+  user:
+    new:
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
