@@ -3,5 +3,6 @@ IrresponsibleModule:
 FeatureEnvy:
     exclude:
     - "ApplicationHelper"
+    enabled: false
 
 
