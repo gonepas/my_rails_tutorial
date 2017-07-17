@@ -45,5 +45,7 @@ en:
       news: "News"
   user:
     new:
+      title: "Users#new"
       signup: "Sign up"
+      content1: "Find me in app/views/users/new.html.erb"
       content: "This will be a signup page for new users."
