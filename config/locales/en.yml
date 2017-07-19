@@ -37,6 +37,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      logout: "Logout"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
     footer:
       content: |
         The <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
@@ -53,6 +58,12 @@ en:
       success: "Welcome to the Sample App!"
       confirmation: "Confirmation"
       create_my_acc: "Create my account"
+  session:
+    login: "Log in"
+    newuser: "New user ?"
+    signup: "Sign up now!"
+    login_fail: "Login fail"
+    remember: "Remember me."
   error:
     the_form_contain: "The form contain"
     error: "error"
