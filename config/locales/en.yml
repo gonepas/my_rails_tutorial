@@ -1,6 +1,7 @@
 en:
   hello: "Hello world"
   home:
+    alt: "Duck"
     title: "Home"
     header: "Sample App"
     text1: "This is the home page for the"
@@ -49,3 +50,9 @@ en:
       signup: "Sign up"
       content1: "Find me in app/views/users/new.html.erb"
       content: "This will be a signup page for new users."
+      success: "Welcome to the Sample App!"
+      confirmation: "Confirmation"
+      create_my_acc: "Create my account"
+  error:
+    the_form_contain: "The form contain"
+    error: "error"
