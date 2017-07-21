@@ -58,6 +58,18 @@ en:
       success: "Welcome to the Sample App!"
       confirmation: "Confirmation"
       create_my_acc: "Create my account"
+    edit:
+      title: "Edit user"
+      text1: "Update your profile"
+      save_changes: "Save changes"
+      change: "change"
+    index:
+      title: "All users"
+    updated: "Profile updated"
+    please_log_in: "Please log in first"
+    not_exist: "User not exist"
+    delete: "delete"
+    you_sure: "Are you sure ?"
   session:
     login: "Log in"
     newuser: "New user ?"

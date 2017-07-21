@@ -6,7 +6,7 @@
         <li><%= link_to t("partial.header.home"), root_path %></li>
         <li><%= link_to t("partial.header.help"), help_path %></li>
         <% if logged_in? %>
-          <li><%= link_to t("partial.header.users"), "#" %></li>
+          <li><%= link_to t("partial.header.users"), users_path %></li>
           <li class="dropdown">
             <%= link_to "#", class: "dropdown-toggle", data: {toggle: "dropdown"} do %>
               <%= t "partial.header.account" %>
@@ -14,7 +14,8 @@
             <% end %>
             <ul class="dropdown-menu">
               <li><%= link_to t("partial.header.profile"), current_user %></li>
-              <li><%= link_to t("partial.header.setting"), "#" %></li>
+              <li><%= link_to t("partial.header.setting"),
+                edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li>
                 <%= link_to t("partial.header.logout"), logout_path,
