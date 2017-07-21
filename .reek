@@ -4,5 +4,7 @@ FeatureEnvy:
     exclude:
     - "ApplicationHelper"
     enabled: false
-
+"app/controllers":
+  InstanceVariableAssumption:
+    enabled: false
 
