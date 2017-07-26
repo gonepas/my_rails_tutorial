@@ -79,3 +79,12 @@ en:
   error:
     the_form_contain: "The form contain"
     error: "error"
+  mail:
+    check_noti: "Please check your email to activate your account."
+    activated: "Account activated!"
+    invalid_link: "Invalid activation link"
+    not_activated_pls_check: "Account not activated. Please check your email to activate your account."
+    text1: "Welcome to the Sample App! Click on the link below to activate your account:"
+    act!: "Activate"
+    hi: "Hi"
+    account_activation: "Account activation"
