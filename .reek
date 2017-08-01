@@ -7,4 +7,3 @@ FeatureEnvy:
 "app/controllers":
   InstanceVariableAssumption:
     enabled: false
-
