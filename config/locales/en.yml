@@ -8,6 +8,7 @@ en:
     text2: "Ruby on Rails Tutorial"
     text3: "sample application."
     signup: "Sign up now!"
+    feed: "Microposts feed"
   help:
     title: "Help"
     content: |
@@ -49,6 +50,17 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+    user_info:
+      link: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      text_area: "Compose new micropost...."
+      submit: "Post"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      del_link: "delete"
+      confirm: "You sure?"
   user:
     new:
       title: "Users#new"
@@ -70,6 +82,7 @@ en:
     not_exist: "User not exist"
     delete: "delete"
     you_sure: "Are you sure ?"
+    log_in_pls: "Please log in."
   session:
     login: "Log in"
     newuser: "New user ?"
@@ -80,6 +93,7 @@ en:
   error:
     the_form_contain: "The form contain"
     error: "error"
+    pic_size: "should be less than 5MB"
   mail:
     check_noti: "Please check your email to activate your account."
     activated: "Account activated!"
@@ -109,4 +123,7 @@ en:
     edit:
       title: "Reset password"
       submit: "Update password"
+  micropost:
+    create_success: "Micropost created!"
+    delete_success: "Micropost deleted"
 
