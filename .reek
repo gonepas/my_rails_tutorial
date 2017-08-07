@@ -7,3 +7,5 @@ FeatureEnvy:
 "app/controllers":
   InstanceVariableAssumption:
     enabled: false
+TooManyMethods:
+  max_methods: 20

@@ -5,6 +5,7 @@ RemoveUnusedMethodsInControllersCheck: {
     "app/controllers/users_controller.rb",
     "app/controllers/sessions_controller.rb",
     "app/controllers/account_activations_controller.rb",
-    "app/controllers/password_resets_controller.rb"
+    "app/controllers/password_resets_controller.rb",
+    "app/controllers/relationships_controller.rb"
   ]
 }

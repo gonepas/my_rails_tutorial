@@ -61,6 +61,14 @@ en:
       ago: "ago."
       del_link: "delete"
       confirm: "You sure?"
+    follow:
+      submit: "follow"
+    unfollow:
+      submit: "unfollow"
+    stat:
+      following: "following"
+      followers: "followers"
+
   user:
     new:
       title: "Users#new"
